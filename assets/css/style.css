@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-color: rgb(240, 239, 239);
+  display: flex;
+  align-items: center;
+}
+.main {
+  width: 80%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main h1 {
+  color: #394145;
+  font-size: 2em;
+  padding-top: 1em;
+}
+.main p {
+  color: #626c70;
+  font-size: 1em;
+  text-align: center;
+}
+
+.logo {
+  width: 15em;
+  height: 15em;
+}
+
+#profile {
+  width: 3em;
+  border-radius: 50%;
+}
+.menu {
+  min-height: 100vh;
+  width: 18em;
+  background-color: white;
+}
+
+.head {
+  display: flex;
+  border: 0.6px silver solid;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.light {
+  font-weight: 100;
+  color: rgb(152, 152, 152);
+}
+
+.options {
+  display: flex;
+  width: 3em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.options a {
+  font-size: 1.2em;
+  color: rgb(152, 152, 152);
+}
+
+.options a:hover {
+  color: rgb(129, 128, 128);
+}
+
+.green-point {
+  color: green;
+  font-size: 0.6em;
+}
+
+.button {
+  display: flex;
+  border: 0.6px silver solid;
+  padding: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: #905aa1;
+  padding: 1em 3em 1em 3em;
+  border: none;
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #7f4997;
+}
+
+.chat {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1em;
+  border: 0.6px silver solid;
+  cursor: pointer;
+}
+.img-chat {
+  max-width: 3em;
+  max-height: 3em;
+  border-radius: 50%;
+}
+.img-chat:hover {
+  box-shadow: -5px 0px 23px 0px rgba(0, 0, 0, 0.32);
+  -webkit-box-shadow: -5px 0px 23px 0px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: -5px 0px 23px 0px rgba(0, 0, 0, 0.32);
+  transform: scale(1.2) skew(1deg) translate(1px, 0px);
+  -webkit-transform: scale(1.2) skew(1deg) translate(1px, 0px);
+  -moz-transform: scale(1.2) skew(1deg) translate(1px, 0px);
+}
+
+.name-friend {
+  width: 100%;
+  padding-left: 1em;
+}
+.name-friend p {
+  padding: 0.2em;
+}
